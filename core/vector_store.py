@@ -45,7 +45,7 @@ logger = logging.getLogger(__name__)
 
 # === Configuration ===
 COLLECTION_NAME = "scientific_articles"
-EMBEDDING_MODEL = "BAAI/bge-m3"  # 8192 context, 1024-d, multilingual, hybrid-capable
+EMBEDDING_MODEL = "intfloat/multilingual-e5-base"  # 8192 context, 1024-d, multilingual, hybrid-capable
 DENSE_DIM = 1024
 MAX_LENGTH = 8192  # full BGE-M3 context window
 
